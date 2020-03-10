@@ -4,11 +4,11 @@ const express = require('express');
 var port = process.env.PORT || 4000
 const http = require('http')
 
-
+//54.188.143.78
 
 
 const app = express();
-app.get('/', function(req,res){
+app.get('/info', function(req,res){
     res.send({response: "I AM ALIVE"})
 })
 
