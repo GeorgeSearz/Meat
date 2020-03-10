@@ -15,7 +15,7 @@ app.get('/info', function(req,res){
 const server = http.createServer(app);
 const io = socketIo(server); // < Interesting!
 
-
+app.listen(4001)
 io.on("connect", socket => {
   console.log("New client connected");
   socket.emit("poop", "pooped on " + Math.random())
