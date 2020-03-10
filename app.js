@@ -1,7 +1,7 @@
 const socketIo = require("socket.io");
 const axios = require("axios");
 const express = require('express');
-var port = process.env.PORT || 4000
+var port = process.env.PORT || 80
 const http = require('http')
 
 //54.188.143.78
