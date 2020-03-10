@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "private": true,
+  "proxy": "http://localhost:80",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
